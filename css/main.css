@@ -12,13 +12,26 @@
      padding-top: 70px;
  }
 
- #player {
+ #player-col {
     float: left;
     width: 70%;
     text-align: center;
     height: 100%;
 }
 
- #thumbnails {
+ #thumbnails-col {
     padding-left: 10px;
  }
+
+.thumbnail-col-pic {
+    float: left;
+}
+
+.thumbnail-col-desc {
+    height: 100%;
+}
+
+.thumbnail-row {
+    padding-top: 10px;   
+    height: 120px;
+}
