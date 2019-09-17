@@ -1,0 +1,24 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 60px;
+ }
+
+ body {
+     margin: 0px;
+     padding-top: 70px;
+ }
+
+ #player {
+    float: left;
+    width: 70%;
+    text-align: center;
+    height: 100%;
+}
+
+ #thumbnails {
+    padding-left: 10px;
+ }
