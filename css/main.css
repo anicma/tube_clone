@@ -44,3 +44,28 @@ h6 {
 .thumbnail-description-text {
   font-size: 12px;
 }
+.comment{
+  display: inline-block;
+  float: left;
+  width: 100%;
+}
+.avatar-picture-col{
+  float: left;
+  width: 10%;
+  height: 100%;
+}
+.comment-body-col{
+  float: left;
+  width: 70%;
+}
+.options-btn-col{
+  float: left;
+  width: 10%;
+}
+.name-time-row{
+  float: left;
+  width: 100%;
+}
+.title-name{
+  font-weight: bold;
+}
