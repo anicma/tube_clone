@@ -25,6 +25,7 @@
 
 .thumbnail-col-pic {
     float: left;
+    padding-right: 5px;
 }
 
 .thumbnail-col-desc {
@@ -32,6 +33,14 @@
 }
 
 .thumbnail-row {
-    padding-top: 10px;   
+    padding-top: 10px;
     height: 120px;
+}
+h6 {
+  padding: 0px;
+  padding-top: 5px;
+  margin: 0px;
+}
+.thumbnail-description-text {
+  font-size: 12px;
 }
