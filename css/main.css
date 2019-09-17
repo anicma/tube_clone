@@ -1,6 +1,6 @@
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #fff;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -10,6 +10,7 @@
  body {
      margin: 0px;
      padding-top: 70px;
+     background-color: #eeeded;
  }
 
  #player-col {
@@ -20,7 +21,9 @@
 }
 
  #thumbnails-col {
+    float: left;
     padding-left: 10px;
+    width: 29%;
  }
 
 .thumbnail-col-pic {
@@ -48,6 +51,7 @@ h6 {
   display: inline-block;
   float: left;
   width: 100%;
+  height: 150px;
 }
 .avatar-picture-col{
   float: left;
@@ -56,6 +60,7 @@ h6 {
 }
 .comment-body-col{
   float: left;
+  text-align: left;
   width: 70%;
 }
 .options-btn-col{
@@ -68,4 +73,18 @@ h6 {
 }
 .title-name{
   font-weight: bold;
+}
+
+hr {
+  width: 90%;
+  height: 1px;
+  color: grey;
+  background-color: grey;
+  border: none;
+}
+
+#video-title {
+  padding-left: 46px;
+  font-weight: bold;
+  text-align: left;
 }
