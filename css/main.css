@@ -88,3 +88,30 @@ hr {
   font-weight: bold;
   text-align: left;
 }
+.red-youtube{
+  color: red;
+  font-size: 35px;
+}
+
+.search-icon{
+  color: grey;
+}
+#navbar-left{
+  height: 100%;
+  vertical-align: middle;
+  float: left;
+}
+#navbar-middle{
+  height: 100%;
+  vertical-align: middle;
+  float: left;
+}
+#navbar-right{
+  height: 100%;
+  vertical-align: middle;
+  float: left;
+}
+.nav-item{
+  padding-left: 15px;
+  vertical-align: middle;
+}
