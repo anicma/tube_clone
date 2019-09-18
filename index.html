@@ -9,10 +9,21 @@
     <title>YouClone | Player: How to build a YouTube Clone</title>
 </head>
 <body>
-    <nav class="navbar"><div id="navbar-left"><i class="fas fa-bars nav-item"></i> <i class="fab fa-youtube red-youtube nav-item"></i> <span class="Youtube-logo-text">Youtube</span></div>
-       <div id="navbar-middle"><input id="search-bar" class="nav-item" type="text" placeholder="Search anything..."><button id="search-btn" class="nav-item"><i class="fas fa-search search-icon nav-item"></i></button></div>
-        <div id="navbar-right"><i class="fas fa-video nav-item"></i> <i class="fas fa-th nav-item"></i> <i class="far fa-comment-dots nav-item"></i>
-        <i class="fas fa-bell nav-item"></i> <i class="far fa-user-circle nav-item"></i></div>
+  <nav class="navbar">
+    <div id="navbar-left">
+      <i class="fas fa-bars nav-item"></i>
+      <i class="fab fa-youtube red-youtube nav-item"></i>
+      <span class="Youtube-logo-text">Youtube</span>
+    </div>
+    <div id="navbar-middle">
+      <input id="search-bar" class="nav-item" type="text" placeholder="Search">
+    <button id="search-btn" class="nav-item">
+      <i class="fas fa-search search-icon nav-item"></i>
+    </button>
+  </div>
+  <div id="navbar-right">
+    <i class="fas fa-video nav-item"></i> <i class="fas fa-th nav-item"></i> <i class="far fa-comment-dots nav-item"></i>
+      <i class="fas fa-bell nav-item"></i> <i class="far fa-user-circle nav-item"></i></div>
      </nav>
     <div id="player-col">
         <div>
@@ -37,9 +48,23 @@
               <div class="name-and-subs"></div>
               <div class="subs-btn"></div>
               <div class="subs-bell"></div>
-            <div class="row-description"><p>Description</p></div>
-        </div>
-        <hr>
+              <div class="row-description">
+                <p>
+                  <div id="youtube-stats">
+                    39,828 views • Published on Jun 1, 2018
+                  </div>
+                  <div id="social-share-btns">
+                    545
+                    22
+                    Share
+                    Save
+                  </div>
+                </p>
+              </div>
+            </div>
+        <br/>
+        <hr/>
+        <br/>
         <div class="comment-section">
           <div class="row-comment-order"></div>
           <div class="comment-box"></div>
@@ -52,131 +77,25 @@
                 <div class="name-time-row">
                   <span class="title-name">Bernd Malle</span> 10 months ago
                 </div>
-                <div class="comment-text">Thank you for this cool presentation - I'll use Bulma in my next project! It was partly hard to watch for the erratic resizing and mouse movements - but please give use more, this is cool technology!</div>
+                <div class="comment-text">
+                  Thank you for this cool presentation - I'll use Bulma in my next project! It was partly hard to watch for the erratic resizing and mouse movements - but please give use more, this is cool technology!</div>
                 <div class="like-btns">
-		  <div class="like-btn">
-		    <i class="far fa-thumbs-up"></i> 5 <i class="far fa-thumbs-down"></i> 1
-		    <a href="#">REPLY</a>
-		  </div>
-		  <div class="answer">View reply <i class="fas fa-sort-down"></i></div>
+                <div class="like-btn">
+                  <i class="far fa-thumbs-up"></i> 5 <i class="far fa-thumbs-down"></i> 1 <a href="#">REPLY</a>
+                </div>
+                <div class="answer">
+                  View reply <i class="fas fa-sort-down"></i>
+                </div>
                 </div>
               </div>
               <div class="options-btn-col">
-                <div class="options-btn-row"><i class="fas fa-ellipsis-v"></i></div>
+                <div class="options-btn-row">
+                  <i class="fas fa-ellipsis-v"></i>
+                </div>
               </div>
             </div>
             <!-- end comment -->
 
-            <div class="comment">
-              <div class="avatar-picture-col">
-                <div class="avatar-picture">Picture</div>
-              </div>
-              <div class="comment-body-col">
-                <div class="name-time-row">
-                  <span class="title-name">Bernd Malle</span> 10 months ago
-                </div>
-                <div class="comment-text">Thank you for this cool presentation - I'll use Bulma in my next project! It was partly hard to watch for the erratic resizing and mouse movements - but please give use more, this is cool technology!</div>
-                <div class="like-btns">
-		  <div class="like-btn">
-		    <i class="far fa-thumbs-up"></i> 5 <i class="far fa-thumbs-down"></i> 1
-		    <a href="#">REPLY</a>
-		  </div>
-		  <div class="answer">View reply <i class="fas fa-sort-down"></i></div>
-                </div>
-              </div>
-              <div class="options-btn-col">
-                <div class="options-btn-row"><i class="fas fa-ellipsis-v"></i></div>
-              </div>
-            </div>
-            <!-- end comment -->
-            <div class="comment">
-              <div class="avatar-picture-col">
-                <div class="avatar-picture">Picture</div>
-              </div>
-              <div class="comment-body-col">
-                <div class="name-time-row">
-                  <span class="title-name">Bernd Malle</span> 10 months ago
-                </div>
-                <div class="comment-text">Thank you for this cool presentation - I'll use Bulma in my next project! It was partly hard to watch for the erratic resizing and mouse movements - but please give use more, this is cool technology!</div>
-                <div class="like-btns">
-		  <div class="like-btn">
-		    <i class="far fa-thumbs-up"></i> 5 <i class="far fa-thumbs-down"></i> 1
-		    <a href="#">REPLY</a>
-		  </div>
-		  <div class="answer">View reply <i class="fas fa-sort-down"></i></div>
-                </div>
-              </div>
-              <div class="options-btn-col">
-                <div class="options-btn-row"><i class="fas fa-ellipsis-v"></i></div>
-              </div>
-            </div>
-            <!-- end comment -->
-            <div class="comment">
-              <div class="avatar-picture-col">
-                <div class="avatar-picture">Picture</div>
-              </div>
-              <div class="comment-body-col">
-                <div class="name-time-row">
-                  <span class="title-name">Bernd Malle</span> 10 months ago
-                </div>
-                <div class="comment-text">Thank you for this cool presentation - I'll use Bulma in my next project! It was partly hard to watch for the erratic resizing and mouse movements - but please give use more, this is cool technology!</div>
-                <div class="like-btns">
-		  <div class="like-btn">
-		    <i class="far fa-thumbs-up"></i> 5 <i class="far fa-thumbs-down"></i> 1
-		    <a href="#">REPLY</a>
-		  </div>
-		  <div class="answer">View reply <i class="fas fa-sort-down"></i></div>
-                </div>
-              </div>
-              <div class="options-btn-col">
-                <div class="options-btn-row"><i class="fas fa-ellipsis-v"></i></div>
-              </div>
-            </div>
-            <!-- end comment -->
-            <div class="comment">
-              <div class="avatar-picture-col">
-                <div class="avatar-picture">Picture</div>
-              </div>
-              <div class="comment-body-col">
-                <div class="name-time-row">
-                  <span class="title-name">Bernd Malle</span> 10 months ago
-                </div>
-                <div class="comment-text">Thank you for this cool presentation - I'll use Bulma in my next project! It was partly hard to watch for the erratic resizing and mouse movements - but please give use more, this is cool technology!</div>
-                <div class="like-btns">
-		  <div class="like-btn">
-		    <i class="far fa-thumbs-up"></i> 5 <i class="far fa-thumbs-down"></i> 1
-		    <a href="#">REPLY</a>
-		  </div>
-		  <div class="answer">View reply <i class="fas fa-sort-down"></i></div>
-                </div>
-              </div>
-              <div class="options-btn-col">
-                <div class="options-btn-row"><i class="fas fa-ellipsis-v"></i></div>
-              </div>
-            </div>
-            <!-- end comment -->
-            <div class="comment">
-              <div class="avatar-picture-col">
-                <div class="avatar-picture">Picture</div>
-              </div>
-              <div class="comment-body-col">
-                <div class="name-time-row">
-                  <span class="title-name">Bernd Malle</span> 10 months ago
-                </div>
-                <div class="comment-text">Thank you for this cool presentation - I'll use Bulma in my next project! It was partly hard to watch for the erratic resizing and mouse movements - but please give use more, this is cool technology!</div>
-                <div class="like-btns">
-		  <div class="like-btn">
-		    <i class="far fa-thumbs-up"></i> 5 <i class="far fa-thumbs-down"></i> 1
-		    <a href="#">REPLY</a>
-		  </div>
-		  <div class="answer">View reply <i class="fas fa-sort-down"></i></div>
-                </div>
-              </div>
-              <div class="options-btn-col">
-                <div class="options-btn-row"><i class="fas fa-ellipsis-v"></i></div>
-              </div>
-            </div>
-            <!-- end comment -->
           </div>
           <!-- end all-comments -->
         </div>
