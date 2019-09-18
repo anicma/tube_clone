@@ -12,8 +12,7 @@
   <nav class="navbar">
     <div id="navbar-left">
       <i class="fas fa-bars nav-item"></i>
-      <i class="fab fa-youtube red-youtube nav-item"></i>
-      <span class="Youtube-logo-text">Youtube</span>
+      <div id="logo-icon-container"></div>
     </div>
     <div id="navbar-middle">
       <input id="search-bar" class="nav-item" type="text" placeholder="Search">
@@ -50,7 +49,7 @@
         </div>
         <div class="channel-description">
           <div class="row-channel-info">
-            <div id="channel-avatar-col"><img id="channel-avatar" src="https://yt3.ggpht.com/a/AGF-l7_sGUrG_alh-mdTIDmdcaw1GanuPL2PxVajjQ=s48-c-k-c0xffffffff-no-rj-mo" alt="" /></div>
+            <div id="channel-avatar-col"><img id="channel-avatar" src="https://yt3.ggpht.com/a/AGF-l7_ruOynVzbFR2qSMeF7vee4wgDpdgYAfdfv=s48-c-k-c0xffffffff-no-rj-mo " alt="" /></div>
             <div id="channel-name-subs-col">Microverse Inc. <br> <span id="subs-counter">1M subscribers</span></div>
             <div id="channel-sub-btn-col"><button id="subscribe-btn">subscribe</button></div>
           </div>
@@ -73,7 +72,7 @@
           <div class="all-comments">
             <div class="comment">
               <div class="avatar-picture-col">
-                <div class="avatar-picture">Picture</div>
+                <div class="avatar-picture"><img  class="commenter-avatar-picture" src="https://yt3.ggpht.com/-GjlC10Ry57Q/AAAAAAAAAAI/AAAAAAAAAAA/NOy0S3oe870/s48-c-k-no-mo-rj-c0xffffff/photo.jpg" alt=""></div>
               </div>
               <div class="comment-body-col">
                 <div class="name-time-row">
@@ -82,12 +81,12 @@
                 <div class="comment-text">
                   Thank you for this cool presentation - I'll use Bulma in my next project! It was partly hard to watch for the erratic resizing and mouse movements - but please give use more, this is cool technology!</div>
                 <div class="like-btns">
-                <div class="like-btn">
-                  <i class="far fa-thumbs-up"></i> 5 <i class="far fa-thumbs-down"></i> 1 <a href="#">REPLY</a>
-                </div>
-                <div class="answer">
-                  View reply <i class="fas fa-sort-down"></i>
-                </div>
+                  <div class="like-btn">
+                    <i class="far fa-thumbs-up thumbs-btn"></i> 5 <i class="far fa-thumbs-down thumbs-btn"></i> 1 <a class="reply-btn" href="#">REPLY</a>
+                  </div>
+                  <div class="answer">
+                    <span class="answer-text">View reply </span><i class="fas fa-sort-down"></i>
+                  </div>
                 </div>
               </div>
               <div class="options-btn-col">
