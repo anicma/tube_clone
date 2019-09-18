@@ -355,8 +355,42 @@ hr {
 }
 
 .social-btn {
-  background-color: none;
+  background-color: Transparent;
+  background-repeat: no-repeat;
   border: none;
+  outline: none;
+}
+
+#row-comment-order{
+  height: 40px;
+  text-align: left;
+  font-size: 18px;
+}
+
+#sort-comment-btn {
+  margin-left: 10px;
+  color:  #5c5b59;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#sort-comment-btn{
+  background-color: Transparent;
+  border: none;
+
+}
+
+#comment-box{
+  height: 80px;
+}
+
+#comment-box-avatar{
+  border-radius: 50%;
+}
+
+#comment-box-field{
+  border: none;
+  border-bottom: 1px solid grey;
 }
 
 /* The slider */
