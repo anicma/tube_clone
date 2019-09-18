@@ -22,12 +22,16 @@
     </button>
   </div>
   <div id="navbar-right">
-    <i class="fas fa-video nav-item"></i> <i class="fas fa-th nav-item"></i> <i class="far fa-comment-dots nav-item"></i>
-      <i class="fas fa-bell nav-item"></i> <i class="far fa-user-circle nav-item"></i></div>
-     </nav>
+    <i class="fas fa-video nav-item"></i>
+    <i class="fas fa-th nav-item"></i>
+    <i class="far fa-comment-dots nav-item"></i>
+    <i class="fas fa-bell nav-item"></i>
+    <i class="far fa-user-circle nav-item"></i></div>
+  </nav>
+  <div id="wrapper">
     <div id="player-col">
         <div>
-            <iframe width="854" height="480" src="https://www.youtube.com/embed/LBzZLzu2GKo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="760" height="480" src="https://www.youtube.com/embed/LBzZLzu2GKo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div id="video-title" class="light-italic">
             Bulma CSS Framework - complete tutorial
@@ -38,25 +42,28 @@
               39,828 views • Published on Jun 1, 2018
             </div>
             <div id="social-share-btns">
-              545
-              22
+              545 22
               Share
               Save
             </div>
           </p>
         </div>
         <div class="channel-description">
-            <div class="row-channel-info">
-              <div id="channel-avatar-col"><i class="fas fa-user-ninja"></i></div>
-              <div id="channel-name-subs-col">Microverse Inc. <br> 1M subscribers</div>
-              <div id="channel-sub-btn-col"><button id="subscribe-btn"></button></div>
-            </div>
-            <div class="row-video-description-box">Learn the best CSS framework since Bootstrap!
-               If you want to take the interactive version of the course, visit this page:
-               https://scrimba.com/g/gbulma <br>
-               <span id="show-more">Show more</span>
-            </div>
+          <div class="row-channel-info">
+            <div id="channel-avatar-col"><img id="channel-avatar" src="https://yt3.ggpht.com/a/AGF-l7_sGUrG_alh-mdTIDmdcaw1GanuPL2PxVajjQ=s48-c-k-c0xffffffff-no-rj-mo" alt="" /></div>
+            <div id="channel-name-subs-col">Microverse Inc. <br> <span id="subs-counter">1M subscribers</span></div>
+            <div id="channel-sub-btn-col"><button id="subscribe-btn">subscribe</button></div>
           </div>
+          <div class="row-video-description-box">Learn the best CSS framework since Bootstrap!
+             If you want to take the interactive version of the course, visit this page:
+             https://scrimba.com/g/gbulma
+             <p>
+               <span id="show-more">Show more</span>
+             </p>
+          </div>
+        </div>
+        <!-- end channel-description -->
+
         <br/>
         <hr/>
         <br/>
@@ -158,5 +165,8 @@
             </div>
         </div>
     </div>
+    <!-- end thumbnails-col -->
+  </div>
+  <!-- end wrapper -->
 </body>
 </html>
