@@ -1,34 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed&display=swap');
 
 .navbar {
-    overflow: hidden;
-    background-color: #fff;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-    height: 45px;
-    padding-top: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+    /* Set the navbar to fixed position */
+  top: 0;
+    /* Position the navbar at the top of the page */
+  width: 100%;
+    /* Full width */
+  height: 45px;
+  padding-top: 10px;
 }
 
-#navbar-left{
+#navbar-left {
   float: left;
   width: 25%;
 }
 
-#navbar-middle{
+#navbar-middle {
   padding-top: 5px;
   float: left;
   width: 60%;
   height: 100%;
 }
 
-#navbar-right{
+#navbar-right {
   float: left;
   width: 15%;
 }
 
-#search-bar{
+#search-bar {
   width: 60%;
   border-radius: 2px;
   border: 1px solid #d3d3d3;
@@ -37,7 +41,7 @@
   margin-right: 0px;
 }
 
-#search-btn{
+#search-btn {
   margin-left: -5px;
   background-color: #f9f9f9;
   border-radius: 2px;
@@ -45,10 +49,9 @@
   height: 30px;
   width: 65px;
   text-align: center;
-
 }
 
-#menu-btn-container{
+#menu-btn-container {
   margin-left: 20px;
   margin-top: 15px;
 }
@@ -74,17 +77,17 @@ body {
 }
 
 .thumbnail-col-pic {
-    float: left;
-    padding-right: 5px;
+  float: left;
+  padding-right: 5px;
 }
 
 .thumbnail-col-desc {
-    height: 100%;
+  height: 100%;
 }
 
 .thumbnail-row {
-    padding-top: 10px;
-    height: 120px;
+  padding-top: 10px;
+  height: 120px;
 }
 
 h6 {
@@ -97,60 +100,62 @@ h6 {
   font-size: 12px;
 }
 
-.channel-description{
+.channel-description {
   width: 100%;
   height: 120px;
   margin-top: 40px;
 }
-.row-channel-info{
+
+.row-channel-info {
   width: 100%;
-  height:40px;
+  height: 40px;
 }
-#channel-avatar-col{
+
+#channel-avatar-col {
   float: left;
   width: 65px;
 }
 
-#channel-name-subs-col{
+#channel-name-subs-col {
   padding-top: 5px;
   float: left;
   text-align: left;
   width: 60%;
 }
 
-#channel-sub-btn-col{
+#channel-sub-btn-col {
   float: right;
   text-align: right;
 }
 
-.row-video-description-box{
+.row-video-description-box {
   margin-top: 20px;
   margin-left: 65px;
   width: 700px;
   text-align: left;
 }
 
-#show-more{
+#show-more {
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
   color: #282828;
 }
 
-.comment{
+.comment {
   display: inline-block;
   float: left;
   width: 100%;
   height: 150px;
 }
 
-.avatar-picture-col{
+.avatar-picture-col {
   float: left;
   width: 10%;
   height: 100%;
 }
 
-.comment-body-col{
+.comment-body-col {
   float: left;
   text-align: left;
   width: 70%;
@@ -159,17 +164,17 @@ h6 {
 .all-comments {
 }
 
-.options-btn-col{
+.options-btn-col {
   float: left;
   width: 10%;
 }
 
-.name-time-row{
+.name-time-row {
   float: left;
   width: 100%;
 }
 
-.title-name{
+.title-name {
   font-weight: bold;
 }
 
@@ -187,7 +192,7 @@ hr {
   font-size: 18px;
 }
 
-#logo-icon-container{
+#logo-icon-container {
   float: left;
   height: 24px;
   width: 80px;
@@ -195,39 +200,41 @@ hr {
   margin-top: 6px;
 }
 
-.fa-search{
+.fa-search {
   color: grey;
   margin-right: 25px;
 }
 
-#navbar-left{
+#navbar-left {
   height: 100%;
   vertical-align: middle;
   float: left;
 }
-#navbar-middle{
+
+#navbar-middle {
   height: 100%;
   vertical-align: middle;
   float: left;
 }
-#navbar-right{
+
+#navbar-right {
   height: 100%;
   text-align: center;
   float: left;
   padding-top: 8px;
 }
 
-.nav-item{
+.nav-item {
   float: left;
   padding-left: 15px;
   vertical-align: middle;
 }
 
-.youtube-logo-text{
+.youtube-logo-text {
   margin-top: 5px;
   font-family: 'Fira Sans Extra Condensed', sans-serif;
   font-weight: bolder;
-  color: #282828 ;
+  color: #282828;
 }
 
 .row-description {
@@ -272,34 +279,35 @@ hr {
   font-weight: bold;
 }
 
-.commenter-avatar-picture{
+.commenter-avatar-picture {
   border-radius: 50%;
 }
 
-.comment-text{
+.comment-text {
   margin-bottom: 10px;
 }
 
-.like-btns{
+.like-btns {
   margin-bottom: 10px;
 }
 
-.thumbs-btn{
+.thumbs-btn {
   margin-right: 5px;
 }
 
-.fa-thumbs-down{
+.fa-thumbs-down {
   margin-left: 5px;
 }
 
-.like-btns{
+.like-btns {
   margin-right: 10px;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
   color: #bdbdbd;
 }
-.reply-btn{
+
+.reply-btn {
   margin-left: 10px;
   text-transform: uppercase;
   font-size: 14px;
@@ -307,11 +315,11 @@ hr {
   color: #bdbdbd;
 }
 
-.answer{
+.answer {
   margin-top: 15px;
 }
 
-.answer-text{
+.answer-text {
   font-weight: bold;
   font-size: 15px;
   color: #0d0d0d;
@@ -338,15 +346,13 @@ hr {
   height: 25px;
   width: 100%;
 }
-
- /* The switch - the box around the slider */
+/* The switch - the box around the slider */
 .switch {
   position: relative;
   display: inline-block;
   width: 40px;
   height: 24px;
 }
-
 /* Hide default HTML checkbox */
 .switch input {
   opacity: 0;
@@ -361,7 +367,7 @@ hr {
   outline: none;
 }
 
-#row-comment-order{
+#row-comment-order {
   height: 40px;
   text-align: left;
   font-size: 18px;
@@ -369,30 +375,28 @@ hr {
 
 #sort-comment-btn {
   margin-left: 10px;
-  color:  #5c5b59;
+  color: #5c5b59;
   font-size: 16px;
   font-weight: bold;
 }
 
-#sort-comment-btn{
+#sort-comment-btn {
   background-color: Transparent;
   border: none;
-
 }
 
-#comment-box{
+#comment-box {
   height: 80px;
 }
 
-#comment-box-avatar{
+#comment-box-avatar {
   border-radius: 50%;
 }
 
-#comment-box-field{
+#comment-box-field {
   border: none;
   border-bottom: 1px solid grey;
 }
-
 /* The slider */
 .slider {
   position: absolute;
@@ -431,7 +435,6 @@ input:checked + .slider:before {
   -ms-transform: translateX(18px);
   transform: translateX(18px);
 }
-
 /* Rounded sliders */
 .slider.round {
   border-radius: 34px;
