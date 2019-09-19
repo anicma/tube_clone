@@ -398,15 +398,15 @@ hr {
   transition: 0.4s;
 }
 
-#switch-btn:checked + .slider {
+#switch-btn::checked + .slider {
   background-color: #2196f3;
 }
 
-#switch-btn:focus + .slider {
+#switch-btn::focus + .slider {
   box-shadow: 0 0 1px #2196f3;
 }
 
-#switch-btn:checked + .slider:before {
+#switch-btn::checked + .slider:before {
   -webkit-transform: translateX(18px);
   -ms-transform: translateX(18px);
   transform: translateX(18px);
