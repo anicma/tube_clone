@@ -1,23 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed&display=swap');
 
 .navbar {
   overflow: hidden;
   background-color: #fff;
   position: fixed;
-    /* Set the navbar to fixed position */
-  top: 0;
-    /* Position the navbar at the top of the page */
-  width: 100%;
-    /* Full width */
-  height: 45px;
+  top: 0;               /* Set the navbar to fixed position */
+  width: 100%;          /* Position the navbar at the top of the page */
+  height: 45px;         /* Full width */
   padding-top: 10px;
 }
 
 #navbar-left {
   float: left;
   width: 25%;
+  height: 100%;
+  vertical-align: middle;
 }
 
 #navbar-middle {
@@ -25,20 +23,23 @@
   float: left;
   width: 60%;
   height: 100%;
+  vertical-align: middle;
 }
 
 #navbar-right {
   float: left;
   width: 15%;
+  height: 100%;
+  text-align: center;
+  padding-top: 8px;
 }
 
 #search-bar {
-  width: 60%;
   border-radius: 2px;
   border: 1px solid #d3d3d3;
   height: 26px;
   width: 550px;
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 #search-btn {
@@ -57,7 +58,7 @@
 }
 
 body {
-  margin: 0px;
+  margin: 0;
   padding-top: 70px;
   background-color: #f9f9f9;
   font-family: roboto, sans-serif;
@@ -91,9 +92,9 @@ body {
 }
 
 h6 {
-  padding: 0px;
+  padding: 0;
   padding-top: 5px;
-  margin: 0px;
+  margin: 0;
 }
 
 .thumbnail-description-text {
@@ -161,9 +162,6 @@ h6 {
   width: 70%;
 }
 
-.all-comments {
-}
-
 .options-btn-col {
   float: left;
   width: 10%;
@@ -203,25 +201,6 @@ hr {
 .fa-search {
   color: grey;
   margin-right: 25px;
-}
-
-#navbar-left {
-  height: 100%;
-  vertical-align: middle;
-  float: left;
-}
-
-#navbar-middle {
-  height: 100%;
-  vertical-align: middle;
-  float: left;
-}
-
-#navbar-right {
-  height: 100%;
-  text-align: center;
-  float: left;
-  padding-top: 8px;
 }
 
 .nav-item {
@@ -270,7 +249,7 @@ hr {
 
 #subscribe-btn {
   text-transform: uppercase;
-  background-color: #cc0000;
+  background-color: #c00;
   color: white;
   border-radius: 2px;
   width: 110px;
@@ -284,10 +263,6 @@ hr {
 }
 
 .comment-text {
-  margin-bottom: 10px;
-}
-
-.like-btns {
   margin-bottom: 10px;
 }
 
@@ -305,6 +280,7 @@ hr {
   font-size: 14px;
   font-weight: bold;
   color: #bdbdbd;
+  margin-bottom: 10px;
 }
 
 .reply-btn {
@@ -330,7 +306,7 @@ hr {
   text-align: center;
   height: 100%;
   width: 45px;
-  padding: 10px 0px 0px 20px;
+  padding: 10px 0 0 20px;
 }
 
 #text-next-container {
@@ -346,6 +322,7 @@ hr {
   height: 25px;
   width: 100%;
 }
+
 /* The switch - the box around the slider */
 .switch {
   position: relative;
@@ -353,6 +330,7 @@ hr {
   width: 40px;
   height: 24px;
 }
+
 /* Hide default HTML checkbox */
 .switch input {
   opacity: 0;
@@ -378,9 +356,6 @@ hr {
   color: #5c5b59;
   font-size: 16px;
   font-weight: bold;
-}
-
-#sort-comment-btn {
   background-color: Transparent;
   border: none;
 }
@@ -397,6 +372,7 @@ hr {
   border: none;
   border-bottom: 1px solid grey;
 }
+
 /* The slider */
 .slider {
   position: absolute;
@@ -406,35 +382,36 @@ hr {
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
-.slider:before {
+.slider::before {
   position: absolute;
   content: "";
   height: 26px;
   width: 26px;
-  left: 0px;
-  bottom: 0px;
+  left: 0;
+  bottom: 0;
   background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
-input:checked + .slider {
-  background-color: #2196F3;
+input::checked + .slider {
+  background-color: #2196f3;
 }
 
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+input::focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
 }
 
-input:checked + .slider:before {
+input::checked + .slider:before {
   -webkit-transform: translateX(18px);
   -ms-transform: translateX(18px);
   transform: translateX(18px);
 }
+
 /* Rounded sliders */
 .slider.round {
   border-radius: 34px;
