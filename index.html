@@ -11,11 +11,11 @@
 </head>
 <body>
   <nav class="navbar">
-    <div id="navbar-left">
-      <div id="menu-container">
+    <div class="navbar-left">
+      <div class="menu-container">
         <i class="fas fa-bars nav-item"></i>
       </div>
-      <div id="logo-icon-container">
+      <div class="logo-icon-container">
       <svg viewBox="0 0 200 60" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;" class="style-scope ytd-topbar-logo-renderer"><g viewBox="0 0 200 60" preserveAspectRatio="xMidYMid meet" class="style-scope ytd-topbar-logo-renderer">
         <g class="style-scope ytd-topbar-logo-renderer">
           <path fill="#FF0000" d="M63,14.87c-0.72-2.7-2.85-4.83-5.56-5.56C52.54,8,32.88,8,32.88,8S13.23,8,8.32,9.31
@@ -61,52 +61,50 @@
   </svg>
       </div>
     </div>
-    <div id="navbar-middle">
-      <input id="search-bar" class="nav-item" type="text" placeholder="Search">
-    <button id="search-btn" class="nav-item">
+    <div class="navbar-middle">
+      <input  class="nav-item search-bar" type="text" placeholder="Search">
+    <button  class="nav-item search-btn">
       <i class="fas fa-search search-icon nav-item"></i>
     </button>
   </div>
-  <div id="navbar-right">
+  <div class="navbar-right">
     <i class="fas fa-video nav-item"></i>
     <i class="fas fa-th nav-item"></i>
     <i class="far fa-comment-dots nav-item"></i>
     <i class="fas fa-bell nav-item"></i>
     <i class="far fa-user-circle nav-item"></i></div>
   </nav>
-  <div id="wrapper">
-    <div id="player-col">
+  <div class="wrapper">
+    <div class="player-col">
         <div>
             <iframe width="760" height="480" src="https://www.youtube.com/embed/LBzZLzu2GKo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div id="video-title" class="light-italic">
+        <div class="light-italic video-title">
             Bulma CSS Framework - complete tutorial
         </div>
         <div class="row-description">
-          <p>
-            <div id="youtube-stats">
+            <div class="youtube-stats">
               39,828 views • Published on Jun 1, 2018
             </div>
-            <div id="social-share-btns">
+            <div class="social-share-btns">
               <i class="far fa-thumbs-up thumbs-btn"></i> 545 <i class="far fa-thumbs-down thumbs-btn"></i> 2
-              <button id="solo-share-btn" class="social-btn"><i class="fas fa-share"></i></button>
-              <button id="share-btn" class="social-btn">SHARE</button>
-              <button id="solo-add-btn" class="social-btn"><i class="fas fa-plus-square"></i></button>
-              <button id="save-btn" class="social-btn">SAVE</button>
+              <button class="social-btn solo-share-btn"><i class="fas fa-share"></i></button>
+              <button class="social-btn share-btn">SHARE</button>
+              <button class="social-btn solo-add-btn"><i class="fas fa-plus-square"></i></button>
+              <button class="social-btn save-btn">SAVE</button>
             </div>
-          </p>
         </div>
         <div class="channel-description">
           <div class="row-channel-info">
-            <div id="channel-avatar-col"><img id="channel-avatar" src="https://yt3.ggpht.com/a/AGF-l7_ruOynVzbFR2qSMeF7vee4wgDpdgYAfdfv=s48-c-k-c0xffffffff-no-rj-mo " alt="" /></div>
-            <div id="channel-name-subs-col">Microverse Inc. <br> <span id="subs-counter">1M subscribers</span></div>
-            <div id="channel-sub-btn-col"><button id="subscribe-btn">subscribe</button></div>
+            <div class="channel-avatar-col"><img class="channel-avatar" src="https://yt3.ggpht.com/a/AGF-l7_ruOynVzbFR2qSMeF7vee4wgDpdgYAfdfv=s48-c-k-c0xffffffff-no-rj-mo " alt="" /></div>
+            <div class="channel-name-subs-col">Microverse Inc. <br> <span class="subs-counter">1M subscribers</span></div>
+            <div class="channel-sub-btn-col"><button class="subscribe-btn">subscribe</button></div>
           </div>
           <div class="row-video-description-box">Learn the best CSS framework since Bootstrap!
              If you want to take the interactive version of the course, visit this page:
              https://scrimba.com/g/gbulma
              <p>
-               <span id="show-more">Show more</span>
+               <span class="show-more">Show more</span>
              </p>
           </div>
         </div>
@@ -116,21 +114,21 @@
         <hr/>
         <br/>
         <div class="comment-section">
-          <div id="row-comment-order">
+          <div class="row-comment-order">
             8 comments
-            <button id="sort-comment-btn" type="">
+            <button class="sort-comment-btn">
               <i class="fas fa-sort-amount-down"></i>
               SORT BY
             </button>
           </div>
           <div class="all-comments">
-            <div id="comment-box" class="comment">
+            <div class="comment comment-box">
               <div class="avatar-picture-col">
                 <div class="avatar-picture"><img  class="commenter-avatar-picture" src="https://s.ytimg.com/yts/img/avatar_48-vfllY0UTT.png" alt=""></div>
               </div>
               <div class="comment-body-col">
-                <input type="text" name="" id="comment-box-field" value="" placeholder="Default profile photo
-    Add a public comment... "/>
+                <input type="text" class="comment-box-field" value=""
+                 placeholder="Add a public comment... "/>
               </div>
             </div>
             <div class="comment">
@@ -164,13 +162,13 @@
           <!-- end all-comments -->
         </div>
     </div>
-    <div id="thumbnails-col">
-      <div id="autoplayer-container">
-        <div id="text-next-container">Up Next</div>
-        <div id="autoplayer-btn">
+    <div class="thumbnails-col">
+      <div class="autoplayer-container">
+        <div class="text-next-container">Up Next</div>
+        <div class="autoplayer-btn">
           AUTOPLAY
           <label class="switch">
-            <input id="switch-btn" type="checkbox">
+            <input class="switch-btn" type="checkbox">
             <span class="slider round"></span>
           </label>
           <!-- Rounded switch -->

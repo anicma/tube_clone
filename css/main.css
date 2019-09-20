@@ -3,7 +3,7 @@
 
 .navbar {
   overflow: hidden;
-  background-color: #fff;
+  background-color: .fff;
   position: fixed;
   top: 0;               /* Set the navbar to fixed position */
   width: 100%;          /* Position the navbar at the top of the page */
@@ -11,14 +11,14 @@
   padding-top: 10px;
 }
 
-#navbar-left {
+.navbar-left {
   float: left;
   width: 25%;
   height: 100%;
   vertical-align: middle;
 }
 
-#navbar-middle {
+.navbar-middle {
   padding-top: 5px;
   float: left;
   width: 60%;
@@ -26,7 +26,7 @@
   vertical-align: middle;
 }
 
-#navbar-right {
+.navbar-right {
   float: left;
   width: 15%;
   height: 100%;
@@ -34,25 +34,25 @@
   padding-top: 8px;
 }
 
-#search-bar {
+.search-bar {
   border-radius: 2px;
-  border: 1px solid #d3d3d3;
+  border: 1px solid .d3d3d3;
   height: 26px;
   width: 550px;
   margin-right: 0;
 }
 
-#search-btn {
+.search-btn {
   margin-left: -5px;
-  background-color: #f9f9f9;
+  background-color: .f9f9f9;
   border-radius: 2px;
-  border: 1px solid #d3d3d3;
+  border: 1px solid .d3d3d3;
   height: 30px;
   width: 65px;
   text-align: center;
 }
 
-#menu-btn-container {
+.menu-btn-container {
   margin-left: 20px;
   margin-top: 15px;
 }
@@ -60,18 +60,18 @@
 body {
   margin: 0;
   padding-top: 70px;
-  background-color: #f9f9f9;
+  background-color: .f9f9f9;
   font-family: roboto, sans-serif;
 }
 
-#player-col {
+.player-col {
   float: left;
   width: 70%;
   text-align: center;
   height: 100%;
 }
 
-#thumbnails-col {
+.thumbnails-col {
   float: left;
   padding-left: 10px;
   width: 29%;
@@ -112,19 +112,19 @@ h6 {
   height: 40px;
 }
 
-#channel-avatar-col {
+.channel-avatar-col {
   float: left;
   width: 65px;
 }
 
-#channel-name-subs-col {
+.channel-name-subs-col {
   padding-top: 5px;
   float: left;
   text-align: left;
   width: 60%;
 }
 
-#channel-sub-btn-col {
+.channel-sub-btn-col {
   float: right;
   text-align: right;
 }
@@ -136,11 +136,11 @@ h6 {
   text-align: left;
 }
 
-#show-more {
+.show-more {
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #282828;
+  color: .282828;
 }
 
 .comment {
@@ -180,17 +180,17 @@ hr {
   width: 90%;
   height: 1px;
   color: grey;
-  background-color: #e0e0e0;
+  background-color: .e0e0e0;
   border: none;
 }
 
-#video-title {
+.video-title {
   font-weight: 400;
   text-align: left;
   font-size: 18px;
 }
 
-#logo-icon-container {
+.logo-icon-container {
   float: left;
   height: 24px;
   width: 80px;
@@ -213,43 +213,43 @@ hr {
   margin-top: 5px;
   font-family: 'Fira Sans Extra Condensed', sans-serif;
   font-weight: bolder;
-  color: #282828;
+  color: .282828;
 }
 
 .row-description {
-  color: #707070;
+  color: .707070;
   height: 5px;
   text-align: left;
 }
 
-#youtube-stats {
+.youtube-stats {
   float: left;
   width: 50%;
 }
 
-#social-share-btns {
+.social-share-btns {
   float: left;
   width: 49%;
   text-align: right;
 }
 
-#wrapper {
+.wrapper {
   width: 80%;
   margin: auto;
 }
 
-#channel-avatar {
+.channel-avatar {
   border-radius: 50%;
 }
 
-#subs-counter {
+.subs-counter {
   font-size: 12px;
-  color: #606060;
+  color: .606060;
 }
 
-#subscribe-btn {
+.subscribe-btn {
   text-transform: uppercase;
-  background-color: #c00;
+  background-color: .c00;
   color: white;
   border-radius: 2px;
   width: 110px;
@@ -279,7 +279,7 @@ hr {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
-  color: #bdbdbd;
+  color: .bdbdbd;
   margin-bottom: 10px;
 }
 
@@ -288,7 +288,7 @@ hr {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
-  color: #bdbdbd;
+  color: .bdbdbd;
 }
 
 .answer {
@@ -298,10 +298,10 @@ hr {
 .answer-text {
   font-weight: bold;
   font-size: 15px;
-  color: #0d0d0d;
+  color: .0d0d0d;
 }
 
-#menu-container {
+.menu-container {
   float: left;
   text-align: center;
   height: 100%;
@@ -309,16 +309,16 @@ hr {
   padding: 10px 0 0 20px;
 }
 
-#text-next-container {
+.text-next-container {
   float: left;
   width: 60%;
 }
 
-#autoplayer-btn {
+.autoplayer-btn {
   text-align: right;
 }
 
-#autoplayer-container {
+.autoplayer-container {
   height: 25px;
   width: 100%;
 }
@@ -345,30 +345,30 @@ hr {
   outline: none;
 }
 
-#row-comment-order {
+.row-comment-order {
   height: 40px;
   text-align: left;
   font-size: 18px;
 }
 
-#sort-comment-btn {
+.sort-comment-btn {
   margin-left: 10px;
-  color: #5c5b59;
+  color: .5c5b59;
   font-size: 16px;
   font-weight: bold;
   background-color: Transparent;
   border: none;
 }
 
-#comment-box {
+.comment-box {
   height: 80px;
 }
 
-#comment-box-avatar {
+.comment-box-avatar {
   border-radius: 50%;
 }
 
-#comment-box-field {
+.comment-box-field {
   border: none;
   border-bottom: 1px solid grey;
 }
@@ -381,7 +381,7 @@ hr {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: .ccc;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -398,15 +398,15 @@ hr {
   transition: 0.4s;
 }
 
-#switch-btn:checked + .slider {
-  background-color: #2196f3;
+.switch-btn:checked + .slider {
+  background-color: .2196f3;
 }
 
-#switch-btn:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
+.switch-btn:focus + .slider {
+  box-shadow: 0 0 1px .2196f3;
 }
 
-#switch-btn:checked + .slider::before {
+.switch-btn:checked + .slider::before {
   -webkit-transform: translateX(18px);
   -ms-transform: translateX(18px);
   transform: translateX(18px);
