@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed&display=swap');
+
+.navbar {
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;               /* Set the navbar to fixed position */
+  width: 100%;          /* Position the navbar at the top of the page */
+  height: 45px;         /* Full width */
+  padding-top: 10px;
+}
+
+.navbar-left {
+  float: left;
+  width: 25%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.navbar-middle {
+  padding-top: 5px;
+  float: left;
+  width: 60%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.navbar-right {
+  float: left;
+  width: 15%;
+  height: 100%;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.search-bar {
+  border-radius: 2px;
+  border: 1px solid #d3d3d3;
+  height: 26px;
+  width: 550px;
+  margin-right: 0;
+}
+
+.search-btn {
+  margin-left: -5px;
+  background-color: #f9f9f9;
+  border-radius: 2px;
+  border: 1px solid #d3d3d3;
+  height: 30px;
+  width: 65px;
+  text-align: center;
+}
+
+.menu-btn-container {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+body {
+  margin: 0;
+  padding-top: 70px;
+  background-color: #f9f9f9;
+  font-family: roboto, sans-serif;
+}
+
+.player-col {
+  padding-right: 22px;
+  float: left;
+  width: 700px;
+  height: 100%;
+}
+
+.thumbnails-col {
+  float: left;
+  padding-left: 10px;
+  width: 29%;
+}
+
+.thumbnail-col-pic {
+  float: left;
+  padding-right: 5px;
+}
+
+.thumbnail-col-desc {
+  height: 100%;
+}
+
+.thumbnail-row {
+  padding-top: 10px;
+  height: 120px;
+}
+
+h6 {
+  padding: 0;
+  padding-top: 5px;
+  margin: 0;
+}
+
+.thumbnail-description-text {
+  font-size: 12px;
+}
+
+.channel-description {
+  width: 100%;
+  height: 120px;
+  margin-top: 40px;
+}
+
+.row-channel-info {
+  width: 100%;
+  height: 40px;
+}
+
+.channel-avatar-col {
+  float: left;
+  width: 65px;
+}
+
+.channel-name-subs-col {
+  padding-top: 5px;
+  float: left;
+  text-align: left;
+}
+
+.channel-sub-btn-col {
+  float: right;
+  text-align: right;
+}
+
+.row-video-description-box {
+  margin-top: 20px;
+  margin-left: 65px;
+  text-align: left;
+}
+
+.show-more {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #282828;
+}
+
+.comment {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  height: 150px;
+}
+
+.avatar-picture-col {
+  float: left;
+  width: 10%;
+  height: 100%;
+}
+
+.comment-body-col {
+  float: left;
+  text-align: left;
+  width: 70%;
+}
+
+.options-btn-col {
+  float: left;
+  width: 10%;
+}
+
+.name-time-row {
+  float: left;
+  width: 100%;
+}
+
+.title-name {
+  font-weight: bold;
+}
+
+hr {
+  width: 90%;
+  height: 1px;
+  color: grey;
+  background-color: #e0e0e0;
+  border: none;
+}
+
+.video-title {
+  font-weight: 400;
+  text-align: left;
+  font-size: 18px;
+  margin: 0 0 5px 0;
+}
+
+.logo-icon-container {
+  float: left;
+  height: 24px;
+  width: 80px;
+  margin-left: 15px;
+  margin-top: 6px;
+}
+
+.fa-search {
+  color: grey;
+  margin-right: 25px;
+}
+
+.nav-item {
+  float: left;
+  padding-left: 15px;
+  vertical-align: middle;
+}
+
+.youtube-logo-text {
+  margin-top: 5px;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-weight: bolder;
+  color: #282828;
+}
+
+.row-description {
+  color: #707070;
+  height: 5px;
+  text-align: left;
+}
+
+.youtube-stats {
+  float: left;
+  width: 50%;
+}
+
+.social-share-btns {
+  float: left;
+  width: 49%;
+  text-align: right;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.channel-avatar {
+  border-radius: 50%;
+}
+
+.subs-counter {
+  font-size: 12px;
+  color: #606060;
+}
+
+.subscribe-btn {
+  text-transform: uppercase;
+  background-color: #c00;
+  color: white;
+  border-radius: 2px;
+  width: 110px;
+  height: 40px;
+  border: none;
+  font-weight: bold;
+}
+
+.commenter-avatar-picture {
+  border-radius: 50%;
+}
+
+.comment-text {
+  margin-bottom: 10px;
+}
+
+.thumbs-btn {
+  margin-right: 5px;
+}
+
+.fa-thumbs-down {
+  margin-left: 5px;
+}
+
+.like-btns {
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  color: #bdbdbd;
+  margin-bottom: 10px;
+}
+
+.reply-btn {
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  color: #bdbdbd;
+}
+
+.answer {
+  margin-top: 15px;
+}
+
+.answer-text {
+  font-weight: bold;
+  font-size: 15px;
+  color: #0d0d0d;
+}
+
+.menu-container {
+  float: left;
+  text-align: center;
+  height: 100%;
+  width: 45px;
+  padding: 10px 0 0 20px;
+}
+
+.text-next-container {
+  float: left;
+  width: 60%;
+}
+
+.autoplayer-btn {
+  text-align: right;
+}
+
+.autoplayer-container {
+  height: 25px;
+  width: 100%;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 24px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.social-btn {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+}
+
+.row-comment-order {
+  height: 40px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.sort-comment-btn {
+  margin-left: 10px;
+  color: #5c5b59;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: Transparent;
+  border: none;
+}
+
+.comment-box {
+  height: 80px;
+}
+
+.comment-box-avatar {
+  border-radius: 50%;
+}
+
+.comment-box-field {
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+iframe {
+  border: 0;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.switch-btn:checked + .slider {
+  background-color: #2196f3;
+}
+
+.switch-btn:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+.switch-btn:checked + .slider::before {
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(18px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round::before {
+  border-radius: 50%;
+}
